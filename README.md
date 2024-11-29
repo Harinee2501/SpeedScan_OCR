@@ -1,4 +1,4 @@
-# Vehicle Speed Detection and Number Plate Recognition
+# Speed Violation and Number Plate Detection
 
 ## Problem Statement
 The objective of this project is to develop a system that detects the speed of vehicles in real-time using video footage and recognizes their number plates. This system aims to automatically send notifications (like emails or messages) to individuals whose speed exceeds the speed limit, based on the number plate detected. This can help in road safety enforcement, monitoring, and traffic law compliance.
@@ -52,3 +52,9 @@ https://drive.google.com/drive/folders/1TSA2hLEcXESO1Tfj3P_Y6QU4I9mWHBV-?usp=sha
 - **Advanced Speed Detection Algorithms**: Exploring advanced techniques like Kalman filters for more accurate and stable speed estimation.
 - **Database Integration**: Integrating a database to track vehicles, their speeds, and owner information to automate ticketing or violation reporting.
 - **Scalability**: Developing the system for large-scale deployment in cities with high traffic, using cloud services for video storage, model inference, and notification management.
+
+---
+### Team Members
+- **[M Harinee](https://github.com/Harinee2501)**
+- **[Indhumathi Sivashanmugam](https://github.com/Indhumathi-SivaShanmugam)**  
+---
