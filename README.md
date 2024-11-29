@@ -10,6 +10,9 @@ The project integrates two crucial components:
   
 By combining these components, the system can track vehicles in real-time, measure their speed, identify their number plates, and send alerts when a vehicle exceeds a predefined speed limit.
 
+![Screenshot 2024-11-29 212731](https://github.com/user-attachments/assets/f48c81bd-02f3-4d0a-9a4c-0b1207c734d3)
+
+
 ## Approach
 The project is implemented using a YOLO (You Only Look Once) object detection model to detect vehicles and number plates in real-time video feeds. For speed calculation, the system tracks the movement of vehicles across frames, using the distance between the vehicle's previous and current position and the video frame rate to estimate speed.
 
