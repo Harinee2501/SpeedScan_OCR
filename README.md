@@ -34,7 +34,7 @@ The project is implemented using a YOLO (You Only Look Once) object detection mo
 - **Speed Calculation**: Speed detection is implemented with an adjustable scaling factor, and the system successfully detects speeds above a defined threshold.
 - **Notification System**: Initial setup for detecting speed violations, but still in the testing phase for automated notifications via email/SMS.
 
-## Test Videos Link
+## Test Videos and Output Link
 https://drive.google.com/drive/folders/1TSA2hLEcXESO1Tfj3P_Y6QU4I9mWHBV-?usp=sharing
 
 ## Output Screenshots
