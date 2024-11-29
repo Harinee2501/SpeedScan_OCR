@@ -10,8 +10,6 @@ The project integrates two crucial components:
   
 By combining these components, the system can track vehicles in real-time, measure their speed, identify their number plates, and send alerts when a vehicle exceeds a predefined speed limit.
 
-![Screenshot 2024-11-29 212731](https://github.com/user-attachments/assets/f48c81bd-02f3-4d0a-9a4c-0b1207c734d3)
-
 
 ## Approach
 The project is implemented using a YOLO (You Only Look Once) object detection model to detect vehicles and number plates in real-time video feeds. For speed calculation, the system tracks the movement of vehicles across frames, using the distance between the vehicle's previous and current position and the video frame rate to estimate speed.
@@ -35,7 +33,11 @@ The project is implemented using a YOLO (You Only Look Once) object detection mo
 - **Real-time Processing**: Implemented real-time vehicle tracking, speed detection, and number plate recognition in video streams.
 - **Speed Calculation**: Speed detection is implemented with an adjustable scaling factor, and the system successfully detects speeds above a defined threshold.
 - **Notification System**: Initial setup for detecting speed violations, but still in the testing phase for automated notifications via email/SMS.
-  
+
+## Output Screenshots
+![Screenshot 2024-11-29 212731](https://github.com/user-attachments/assets/3bf4da8b-c8f1-4f43-9d2b-bd01a63c10af)
+![Screenshot 2024-11-29 212702](https://github.com/user-attachments/assets/ae2481dd-832e-4624-997d-8b9290184339)
+
 ### Challenges Faced:
 1. **Different Camera Angles**: To accurately detect the speed of vehicles, multiple camera angles are required for capturing vehicles in motion. A single camera angle might miss some vehicles or fail to track them properly due to occlusions.
 2. **Smoothing Speed Detection**: The speed detection requires fine-tuning of the smoothing factor to ensure that speed readings are accurate and not erratic. A proper smoothing algorithm is essential for reducing noise in the detected speeds.
