@@ -1,4 +1,4 @@
-# Speed Violation and Number Plate Detection
+# SpeedScan_OCR - Speed Violation and Number Plate Detection
 
 ## Problem Statement
 The objective of this project is to develop a system that detects the speed of vehicles in real-time using video footage and recognizes their number plates. This system aims to automatically send notifications (like emails or messages) to individuals whose speed exceeds the speed limit, based on the number plate detected. This can help in road safety enforcement, monitoring, and traffic law compliance.
